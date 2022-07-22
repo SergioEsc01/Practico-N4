@@ -3,21 +3,36 @@ Explica los siguientes conceptos con tus propias palabras.
 
 
 1 - ¿Que es Math?
+ contiene funciones matematicas que usamos para simplificar 
+ el codigo y las tareas 
 
 2 - Explica 5 Metodos Math.
+math.pow: se usa para las potenicas
+math.max: identifica el numero mas grande y lo muestra
+math.min: identifica el numero mas chico y lo muestra
+math.rund: redondea el numero al entero mas cercano
+math.random: devuelve un numero entre 0 y 1
 
 3 - ¿Que es un String?
+es una secuencia de caracteres  
 
 4 - ¿Que es un booleano?
-a
+representa dos valores true y false
+
 5 - ¿Que es una funcion?
+es algo que resuelve un problema o realiza una tarea
 
 6 - Explica la diferencia entre Undefined y Null
+la diferencia es que null significa vacio y undefined 
+significa que aun no le damos un valor a esa variable 
+o constante
 
 7 - ¿Cuales son los operadores de Comparacion?
+son: ==,===,!==,!=,>,<,<=,>=
 
 8 - ¿Cuales son los operadores Logicos?
-
+son: &&, || , !
 9 - ¿A que hace referencia la palabra Clave o Key?
-
+hace referencia al identificador en el objeto
 10 - ¿Para que sirve el Bucle for..in ?
+sirve para iterar de forma precisa un arreglo/objeto 

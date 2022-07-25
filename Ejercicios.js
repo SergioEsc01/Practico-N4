@@ -80,10 +80,12 @@ function agregarMetodoCalculoDescuento(producto) {
     // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
     // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
     // Tu código:
-    
-    return producto.calcularpreciodescuento
+    var calculo={
+        calcularprecioproducto:function(){console.log(producto.precio-(producto.precio*producto.porcentajedescuento))}}
+        var productofinal=Object.assign(producto,calculo)
+    return productofinal
 }
-console.log(agregarMetodoCalculoDescuento({precio:100,porcentajedescuento:0.2,calcularpreciodescuento:function(){console.log(producto.precio-(producto.precio*producto.porcentajedescuento))}}))
+console.log(agregarMetodoCalculoDescuento({precio:100,porcentajedescuento:0.2}))
 
 function ordenar(array) {
     // A partir del array pasado por parametros, ordenarlo (ascendente o descendente) de la forma que tu quieras
